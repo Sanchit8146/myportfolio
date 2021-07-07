@@ -1,0 +1,113 @@
+#switcher {
+	background: #111;
+	position: fixed;
+	display: none;
+	top: 100px;
+	left: 0;
+	direction: ltr;
+	z-index: 11111;
+	width: 220px;
+	margin-left: 0;
+	border-radius: 0 5px 5px 0;
+	font-family: "Open Sans", Arial, sans-serif;
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(51, 51, 51, 0.2);
+	box-shadow: 0px 0px 4px 0px rgba(51, 51, 51, 0.2);
+}
+
+#switcher hr {
+	border: 0;
+	border-bottom: #ccc 1px solid;
+	margin: 10px 0;
+}
+#switcher h4 {
+	padding: 5px 0;
+	border-bottom: #ccc 1px solid;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	margin: 0 0 10px 0;
+}
+
+#switcher ul {
+	padding: 0 !important;
+	margin: 20px 0 !important;
+}
+#switcher ul li {
+	text-transform: uppercase;
+	margin-bottom: 0;
+	font-size: 12px;
+	display: inline-block;
+}
+#switcher ul li a img {
+	width: 30px;
+}
+
+#showSwitcher {
+	z-index: 11111;
+	margin-left: 0px;
+	position: fixed;
+	left: 0;
+	top: 210px;
+	background: #111111;
+	box-shadow: #ccc 0 0 2px;
+	border-left: 0;
+	font-size: 18px;
+	display: block;
+
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-topright: 4px;
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 4px;
+
+	padding: 13px 16px 10px 14px;
+}
+#hideSwitcher {
+	line-height: 43px;
+	font-size: 38px;
+	margin-bottom: 0px;
+	color: #999;
+	position: absolute;
+	background-color: transparent;
+	width: 40px;
+	height: 40px;
+	top: 7px;
+	right: 16px;
+	text-align: right;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-topright: 4px;
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 4px;
+}
+
+#switcher .content-switcher {
+	padding: 16px;
+	overflow: hidden;
+}
+
+#switcher a.color {
+	border-radius: 2px;
+	display: inline-block;
+	margin: 4px 2px;
+	width: 30px;
+	height: 30px;
+}
+
+#showSwitcher i {
+	font-size: 25px;
+	color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+	#switcher {
+		top: 40px;
+	}
+	#showSwitcher {
+		top: 105px;
+		display: block;
+	}
+}
