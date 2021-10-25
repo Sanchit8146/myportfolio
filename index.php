@@ -6,12 +6,12 @@
     <title>Sanchit's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Template Google Fonts -->
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
 
-    <!-- Template CSS Files -->
+    <!-- CSS Files -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/preloader.min.css" rel="stylesheet">
     <link href="css/circle.css" rel="stylesheet">
@@ -809,7 +809,7 @@
                     <!-- Left Side Ends -->
                     <!-- Contact Form Starts -->
                     <div class="col-12 col-lg-8">
-                        <form class="contactform" method="POST" action="send.php">
+                        <form id="messageform" class="contactform" method="POST" action="send.php">
                             <div class="contactform">
                                 <div class="row">
                                     <div class="col-12 col-md-4">
