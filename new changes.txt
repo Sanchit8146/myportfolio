@@ -1,0 +1,5 @@
+New changes to be added,
+
+first change phpmailer
+second add backend to change data easily
+make projects page dynamic
